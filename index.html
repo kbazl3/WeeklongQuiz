@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="app">
+    <head>
+
+        <meta charset="utf-8">
+        <title>Quiz</title>
+        <link rel="stylesheet" href="public/css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,300">
+    </head>
+    <body>
+
+
+    <header>
+      <ul>
+        <li><a ui-sref="home">HOME</a></li>
+      </ul>
+
+    </header>
+        <ui-view></ui-view>
+
+
+
+
+
+
+    <!-- ANGULAR -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js"></script>
+
+    <!-- APP -->
+    <script src="app.js" charset="utf-8"></script>
+
+    <!-- CONTROLLERS -->
+    <script src="components/home/homeCtrl.js" charset="utf-8"></script>
+    <script src="components/quiz/quizCtrl.js" charset="utf-8"></script>
+    <script src="components/results/resultsCtrl.js" charset="utf-8"></script>
+    </body>
+</html>
